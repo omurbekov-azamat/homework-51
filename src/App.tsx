@@ -28,13 +28,13 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="text-center mt-5 ">
       <Circle number={numbers[0]}/>
       <Circle number={numbers[1]}/>
       <Circle number={numbers[2]}/>
       <Circle number={numbers[3]}/>
       <Circle number={numbers[4]}/>
-      <button onClick={changeNumber}>New numbers</button>
+      <button className='btn btn-success' onClick={changeNumber}>New numbers</button>
     </div>
   );
 }
